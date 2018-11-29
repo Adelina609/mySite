@@ -25,6 +25,7 @@ public class UserService {
         return DigestUtils.md5Hex(st);
     }
 
+
     public static boolean isAdmin(String email, String password){
         return emailPasswDB.get(0).equals(md5Apache(email+password));
     }

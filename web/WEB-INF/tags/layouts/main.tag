@@ -23,9 +23,43 @@
     <!-- Custom styles for this template -->
     <link href="/css/clean-blog.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<c:url value="/css/modal_window.css"/>">
+    <script>
+        // $(".open-all").click(
+        //     function () {
+        //         alert("func")
+        //         $(this).next(".more").slideToggle("fast");
+        //         //$(this).slideToggle("fast");
+        //         $(this).style.display = "none";
+        //     });
+        //
+        // $(".close").click(
+        //     function () {
+        //         $(this).parent().slideToggle("fast");
+        //         //$(".open-all-block").slideToggle("fast");
+        //         $(this).parent().prev(".open-all").style.display = "inline-block";
+        //         //$(".open-all").css("display", "block");
+        //     });
+        var open = document.getElementById("open-all");
+    </script>
+    <script>
+        function pageLoad() {
+            var x = get_cookie ( "emailvvv" );
+            if (x) {
+                var y = document.getElementById("login");
+                y.style.display ="none";
+            }
+        }
 
+        function get_cookie(name) {
+            var matches = document.cookie.match(new RegExp(
+                "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+            ));
+            return matches;
+        }
+    </script>
 </head>
 <body>
+
 <div class="main-wrapper">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
@@ -45,16 +79,18 @@
                         <a class="nav-link" href="/createarticle">Создать</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/post">Sample Post</a>
+                        <a class="nav-link" href="/sources">Источники</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/myarea">Личный Кабинет</a>
+                    </li>
+                    <li class="nav-item" id="login">
                         <a class="nav-link" href="#openModal">Войти</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <div id="openModal" class="modalDialog">
         <div>
             <a href="#close" title="Закрыть" class="close">X</a>
@@ -123,6 +159,7 @@
         </div>
     </div>
 </footer>
+<script>pageLoad()</script>
 
 <!-- Bootstrap core JavaScript -->
 <script src="../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/vendor/jquery/jquery.min.js"></script>

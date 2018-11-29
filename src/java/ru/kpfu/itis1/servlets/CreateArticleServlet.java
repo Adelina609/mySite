@@ -5,6 +5,7 @@ import ru.kpfu.itis1.repositories.ArticlesRepository;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -22,8 +23,14 @@ public class CreateArticleServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String title = req.getParameter("title");
         String text = req.getParameter("text");
-        System.out.println(title+text);
-        ArticlesRepository.add(new Article("admin", title, text));
+        Cookie[] cookies = req.getCookies();
+        String user = "admin";
+        for (Cookie cookie : cookies) {
+            if (cookie.getName().equals("username")) {
+                user = cookie.getValue();
+            }
+        }
+        ArticlesRepository.add(new Article(user, title, text));
         resp.sendRedirect(req.getContextPath() + "/sent");
     }
 }

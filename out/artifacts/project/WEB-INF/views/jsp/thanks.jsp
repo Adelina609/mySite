@@ -10,8 +10,7 @@
 
 <main:main>
 
-    <header class="masthead">
-        <!--style="background-image: url('../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/img/contact-bg.jpg')">-->
+    <header class="masthead" style="background-image: url('img/img_sci.jpg')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">

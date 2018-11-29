@@ -23,15 +23,11 @@ public class RegistrationServlet extends HttpServlet {
         String pass1 = req.getParameter("password1");
         String pass2 = req.getParameter("password2");
         String username = req.getParameter("username");
-        System.out.println(email+pass1+username);
 
         if (pass1.equals(pass2) && UserRepository.getUserByEmail(email) == null) {
-            HttpSession session = req.getSession();
-            session.setAttribute("email", email);
-            session.setMaxInactiveInterval(2*60);
-//            Cookie userName = new Cookie(email, UserService.md5Apache(email));
-//            userName.setMaxAge(2*60);
-//            resp.addCookie(userName);
+            Cookie userName = new Cookie("username", username);
+            userName.setMaxAge(60);
+            resp.addCookie(userName);
 //            if(UserService.isAdmin(email, pass1)) {
 //                session.setAttribute("userRole", "admin");
 //                req.setAttribute("isAdmin", "admin");

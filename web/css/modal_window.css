@@ -153,3 +153,13 @@
     background-image: -ms-linear-gradient(top, #6aa436 0%, #8dc059 100%);
     color: #fff;
 }
+
+.more {
+    display:none
+}
+.open-all, .close {
+    display: inline-block;
+    border: 1px grey solid;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+}
