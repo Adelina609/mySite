@@ -27,6 +27,7 @@ public class CreateArticleServlet extends HttpServlet {
         String user = "admin";
         for (Cookie cookie : cookies) {
             if (cookie.getName().equals("username")) {
+                System.out.println(cookie.getValue());
                 user = cookie.getValue();
             }
         }

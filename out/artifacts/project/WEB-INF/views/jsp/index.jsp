@@ -46,7 +46,7 @@
     </style>
 </head>
 <!-- Page Header -->
-<header class="masthead" style="background-image: url('img/home-bg.jpg')">
+<header class="masthead" style="background-image: url('img/img_brain.jpg')">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -64,20 +64,20 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-            <c:forEach items="${articles}" var="source">
+            <c:forEach items="${articles}" var="article">
             <div class="post-preview">
                 <h2 class="post-title">
-                    ${source.getTitle()}
+                    ${article.getTitle()}
                 </h2>
                 <p class="post-subtitle">
-                    ${source.getText()}
+                    ${article.getText()}
                 </p>
                 <span class="open-all">показать полностью</span>
                 <div class="more" style="display: none">дополнительный текст<br>
                     <span class="close">скрыть</span>
                 </div>
                 <p class="post-meta">Posted by
-                    ${source.getUsername()}</p>
+                    ${article.getUsername()}</p>
             </div>
             </c:forEach>
 

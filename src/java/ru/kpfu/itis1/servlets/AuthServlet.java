@@ -23,7 +23,8 @@ public class AuthServlet extends HttpServlet {
 //            session.setAttribute("email", email);
 //            session.setMaxInactiveInterval(60);
             System.out.println("in Auth servlet");
-            Cookie userName = new Cookie("emailvvv", "value");
+            Cookie userName = new Cookie("username",
+                    UserRepository.getUserByEmail(email).getNickname());
             userName.setMaxAge(60);
             resp.addCookie(userName);
 //            if(UserService.isAdmin(email, pass1)) {

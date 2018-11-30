@@ -22,7 +22,7 @@ public class AuthFilter implements Filter {
         String loginURI = request.getContextPath() + "#openModal";
         boolean isLogged = false;
         for(Cookie cookie :  cookies){
-            if(cookie.getName().equals("emailvvv")){
+            if(cookie.getName().equals("username")){
                 isLogged = true;
             }
         }

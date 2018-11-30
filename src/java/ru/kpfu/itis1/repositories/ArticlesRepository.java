@@ -18,6 +18,7 @@ public class ArticlesRepository {
     private static final String DELETE = "DELETE FROM \"articles\" WHERE \"articles\".username = ? AND \"articles\".title = ?";
     //ограничение 5 статей
     private static final String GET_ARTICLES = "SELECT* FROM \"articles\" LIMIT 5";
+    private static final String GET_ARTICLES_BY_USER = "SELECT* FROM \"articles\" WHERE \"articles\".username = ?";
 
     private static SimpleConnectionBuilder connectionBuilder = new SimpleConnectionBuilder();
 
@@ -46,6 +47,27 @@ public class ArticlesRepository {
         try (Connection con = getConnection();
              PreparedStatement pst = con.prepareStatement(GET_ARTICLES);
              ResultSet rs = pst.executeQuery()) {
+            while (rs.next()) {
+                articles.add(new Article(rs.getString("username"),
+                        rs.getString("title"), rs.getString("text")));
+            }
+        } catch (SQLException e) {
+            System.out.println("SQL exc");
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            System.out.println("Class not found exc");
+            e.printStackTrace();
+        }
+        System.out.println(Arrays.toString(articles.toArray()));
+        return articles;
+    }
+
+    public static List<Article> getArticlesByUser(String user) {
+        List<Article> articles = new ArrayList<>();
+        try (Connection con = getConnection();
+             PreparedStatement pst = con.prepareStatement(GET_ARTICLES_BY_USER)){
+             pst.setString(1, user);
+             ResultSet rs = pst.executeQuery();
             while (rs.next()) {
                 articles.add(new Article(rs.getString("username"),
                         rs.getString("title"), rs.getString("text")));
