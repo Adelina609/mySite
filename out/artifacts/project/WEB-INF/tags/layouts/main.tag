@@ -4,7 +4,6 @@
 <!Doctype html>
 <html>
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -103,54 +102,22 @@
     </div>
 </div>
 <jsp:doBody/>
-
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <ul class="list-inline text-center">
-                    <li class="list-inline-item">
-                        <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                  </span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                        </a>
-                    </li>
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
-            </div>
-        </div>
-    </div>
-</footer>
 <script>pageLoad()</script>
 
 <!-- Bootstrap core JavaScript -->
-<script src="../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/vendor/jquery/jquery.min.js"></script>
-<script src="../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<%--<script src="../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/vendor/jquery/jquery.min.js"></script>--%>
+<%--<script src="../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>--%>
 
+<script src="/vendor/jquery/jquery.min.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- Contact Form JavaScript -->
-<script src="../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/js/jqBootstrapValidation.js"></script>
-<script src="../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/js/contact_me.js"></script>
+<%--<script src="../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/js/jqBootstrapValidation.js"></script>--%>
+<script src="/js/jqBootstrapValidation.min.js"></script>
+<%--<script src="../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/js/contact_me.js"></script>--%>
+<script src="/js/contact_me.js"></script>
 
 <!-- Custom scripts for this template -->
-<script src="../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/js/clean-blog.min.js"></script>
+<%--<script src="../../../../../../Desktop/startbootstrap-clean-blog-gh-pages/js/clean-blog.min.js"></script>--%>
+<script src="/js/clean-blog.min.js"></script>
 </body>
 </html>

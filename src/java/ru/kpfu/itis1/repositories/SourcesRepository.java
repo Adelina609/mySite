@@ -59,17 +59,17 @@ public class SourcesRepository {
         return sources;
     }
 
-    public static void deleteSource(String name){
-        try (Connection con = getConnection();
-             PreparedStatement pst = con.prepareStatement(DELETE)){
-            pst.setString(1, name);
-            pst.executeUpdate();
-        } catch (SQLException e) {
-            System.out.println("SQL exc");
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            System.out.println("Class not found exc");
-            e.printStackTrace();
-        }
-    }
+//    public static void deleteSource(String name){
+//        try (Connection con = getConnection();
+//             PreparedStatement pst = con.prepareStatement(DELETE)){
+//            pst.setString(1, name);
+//            pst.executeUpdate();
+//        } catch (SQLException e) {
+//            System.out.println("SQL exc");
+//            e.printStackTrace();
+//        } catch (ClassNotFoundException e) {
+//            System.out.println("Class not found exc");
+//            e.printStackTrace();
+//        }
+//    }
 }

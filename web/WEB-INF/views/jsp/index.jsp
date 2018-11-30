@@ -37,7 +37,7 @@
         .more {
             display:none
         }
-        .open-all, .close {
+        .open-all, .cllose {
             display: inline-block;
             border: 1px grey solid;
             border-radius: 20px;

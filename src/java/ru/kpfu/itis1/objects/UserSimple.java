@@ -1,16 +1,20 @@
 package ru.kpfu.itis1.objects;
 
+import ru.kpfu.itis1.services.UserService;
+
 import java.util.Objects;
 
 public class UserSimple {
     private String email;
     private String nickname;
     private String password;
+    private String emailCookie;
 
     public UserSimple(String email, String password, String username) {
         this.email = email;
         this.password = password;
         nickname = username;
+        emailCookie = UserService.md5Apache(email);
     }
 
     public String getEmail() {
@@ -35,6 +39,14 @@ public class UserSimple {
 
     public void setNickname(String nickname) {
         this.nickname = nickname;
+    }
+
+    public String getEmailCookie() {
+        return emailCookie;
+    }
+
+    public void setEmailCookie(String emailCookie) {
+        this.emailCookie = emailCookie;
     }
 
     @Override

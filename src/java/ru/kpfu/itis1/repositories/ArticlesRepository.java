@@ -15,10 +15,12 @@ import java.util.List;
 public class ArticlesRepository {
 
     private static final String ADD = "INSERT INTO \"articles\" (username, title, text) VALUES (?, ?, ?)";
+    private static final String ADD_TO_USERS_REP = "INSERT INTO \"users_articles\" (username, title, text) VALUES (?, ?, ?)";
     private static final String DELETE = "DELETE FROM \"articles\" WHERE \"articles\".username = ? AND \"articles\".title = ?";
     //ограничение 5 статей
     private static final String GET_ARTICLES = "SELECT* FROM \"articles\" LIMIT 5";
     private static final String GET_ARTICLES_BY_USER = "SELECT* FROM \"articles\" WHERE \"articles\".username = ?";
+    private static final String GET_USER_ARTICLES = "SELECT* FROM \"users_articles\"";
 
     private static SimpleConnectionBuilder connectionBuilder = new SimpleConnectionBuilder();
 
@@ -26,9 +28,15 @@ public class ArticlesRepository {
         return connectionBuilder.getConnection();
     }
 
-    public static void add(Article article) {
+    public static void add(Article article, String username) {
+        String add;
+        if(username.equals("admin")){
+            add = ADD;
+        } else {
+            add = ADD_TO_USERS_REP;
+        }
         try (Connection con = getConnection();
-             PreparedStatement pst = con.prepareStatement(ADD, new String[]{"username", "title", "text"})) {
+             PreparedStatement pst = con.prepareStatement(add, new String[]{"username", "title", "text"})) {
             pst.setString(1, article.getUsername());
             pst.setString(2, article.getTitle());
             pst.setString(3, article.getText());
@@ -42,10 +50,16 @@ public class ArticlesRepository {
         }
     }
 
-    public static List<Article> getArticles() {
+    public static List<Article> getArticles(String page) {
+        String get;
+        if(page.equals("home")){
+            get = GET_ARTICLES;
+        } else {
+            get = GET_USER_ARTICLES;
+        }
         List<Article> articles = new ArrayList<>();
         try (Connection con = getConnection();
-             PreparedStatement pst = con.prepareStatement(GET_ARTICLES);
+             PreparedStatement pst = con.prepareStatement(get);
              ResultSet rs = pst.executeQuery()) {
             while (rs.next()) {
                 articles.add(new Article(rs.getString("username"),
@@ -61,6 +75,7 @@ public class ArticlesRepository {
         System.out.println(Arrays.toString(articles.toArray()));
         return articles;
     }
+
 
     public static List<Article> getArticlesByUser(String user) {
         List<Article> articles = new ArrayList<>();

@@ -24,50 +24,34 @@ public class RegistrationServlet extends HttpServlet {
         String pass2 = req.getParameter("password2");
         String username = req.getParameter("username");
 
-        if (pass1.equals(pass2) && UserRepository.getUserByEmail(email) == null) {
+        if (pass1.equals(pass2) && UserRepository.getUserByEmail(email) == null
+        && UserService.checkEmail(email)) {
+            Cookie userEmail = new Cookie("email", UserService.md5Apache(email));
             Cookie userName = new Cookie("username", username);
             userName.setMaxAge(60);
             resp.addCookie(userName);
-//            if(UserService.isAdmin(email, pass1)) {
-//                session.setAttribute("userRole", "admin");
-//                req.setAttribute("isAdmin", "admin");
-//                resp.sendRedirect(req.getContextPath() + "/signinadmin");
-//            } else {
-//                session.setAttribute("userRole", "user");
-//                req.setAttribute("isAdmin", "user");
-//                resp.sendRedirect(req.getContextPath() + "/signupresult");
-//            }
+            resp.addCookie(userEmail);
             UserSimple user = new UserSimple(email, pass1, username);
             UserRepository.add(user);
             resp.sendRedirect(req.getContextPath() + "/home");
         }
-//            UserSimple user = new UserSimple(email, pass1);
-//            UserRepository.add(user);
         else if(!pass1.equals(pass2)) {
             req.setAttribute("emailValue", req.getParameter("email"));
             req.setAttribute("nameValue", req.getParameter("username"));
-            req.setAttribute("pass_error", "PASSWORD!");
-            System.out.println("Пароли не совпадают");
+            req.setAttribute("pass_error", "Passwords don't equals");
+            System.out.println("Passwords don't equals");
             req.getRequestDispatcher("WEB-INF/views/jsp/registration.jsp").forward(req, resp);
-//            System.out.println("dopost");
-//            req.getRequestDispatcher("/WEB-INF/views/first_form.jsp").forward(req, resp);
-
-//            req.setAttribute("emailValue", req.getParameter("email"));
-//
-//            if (!UserService.checkEmail(email)) {
-//                req.setAttribute("email_error", "Enter the right email");
-//                req.getRequestDispatcher("/WEB-INF/views/first_form.jsp").forward(req, resp);
-//            }
-//
-//            if (!UserService.checkPassword(pass1)) {
-//                req.setAttribute("pass_error", "Password should be more than 5 symbols");
-//                req.getRequestDispatcher("/WEB-INF/views/first_form.jsp").forward(req, resp);
-//            }
         } else if(UserRepository.getUserByEmail(email) != null){
             req.setAttribute("emailValue", req.getParameter("email"));
             req.setAttribute("nameValue", req.getParameter("username"));
             System.out.println("USER IS EXISTING!");
-            req.setAttribute("email_error", "USER IS EXISTING!!");
+            req.setAttribute("email_error", "User is existing");
+            req.getRequestDispatcher("WEB-INF/views/jsp/registration.jsp").forward(req, resp);
+        } else if(!UserService.checkEmail(email)){
+            req.setAttribute("emailValue", req.getParameter("email"));
+            req.setAttribute("nameValue", req.getParameter("username"));
+            System.out.println("Enter the right email");
+            req.setAttribute("email_error", "Enter the right email");
             req.getRequestDispatcher("WEB-INF/views/jsp/registration.jsp").forward(req, resp);
         }
     }

@@ -7,15 +7,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebFilter("/createarticle")
-public class AuthFilter implements Filter {
+@WebFilter("/myarea")
+public class SameFilterForArea implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         Cookie[] cookies = request.getCookies();
-        String loginURI = request.getContextPath() + "#openModal";
         boolean isLogged = false;
         for(Cookie cookie :  cookies){
             if(cookie.getName().equals("username")){

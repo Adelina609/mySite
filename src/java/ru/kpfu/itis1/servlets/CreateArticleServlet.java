@@ -31,7 +31,7 @@ public class CreateArticleServlet extends HttpServlet {
                 user = cookie.getValue();
             }
         }
-        ArticlesRepository.add(new Article(user, title, text));
+        ArticlesRepository.add(new Article(user, title, text), user);
         resp.sendRedirect(req.getContextPath() + "/sent");
     }
 }

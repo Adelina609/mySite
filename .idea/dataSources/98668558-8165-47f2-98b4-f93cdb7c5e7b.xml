@@ -49,8 +49,8 @@
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionTimestamp>2018-11-30.00:35:06.784</IntrospectionTimestamp>
-      <IntrospectionStateNumber>650</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-11-30.06:23:32.408</IntrospectionTimestamp>
+      <IntrospectionStateNumber>656</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -98,80 +98,103 @@
       <Owner>postgres</Owner>
       <StateNumber>626</StateNumber>
     </table>
-    <column id="20" parent="16" name="username">
+    <table id="20" parent="9" name="users_articles">
+      <ObjectId>16430</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>656</StateNumber>
+    </table>
+    <column id="21" parent="16" name="username">
       <Position>1</Position>
       <DataType>varchar(40)|0s</DataType>
       <StateNumber>635</StateNumber>
       <DefaultExpression>&apos;admin&apos;::character varying</DefaultExpression>
       <TypeId>1043</TypeId>
     </column>
-    <column id="21" parent="16" name="title">
+    <column id="22" parent="16" name="title">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <StateNumber>635</StateNumber>
       <DefaultExpression>&apos;none&apos;::character varying</DefaultExpression>
       <TypeId>1043</TypeId>
     </column>
-    <column id="22" parent="16" name="text">
+    <column id="23" parent="16" name="text">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <StateNumber>636</StateNumber>
       <DefaultExpression>&apos;none&apos;::bpchar</DefaultExpression>
       <TypeId>25</TypeId>
     </column>
-    <column id="23" parent="17" name="email">
+    <column id="24" parent="17" name="email">
       <Position>1</Position>
       <DataType>varchar(40)|0s</DataType>
       <StateNumber>622</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="24" parent="17" name="password">
+    <column id="25" parent="17" name="password">
       <Position>2</Position>
       <DataType>varchar(40)|0s</DataType>
       <StateNumber>622</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="25" parent="17" name="username">
+    <column id="26" parent="17" name="username">
       <Position>3</Position>
       <DataType>varchar(40)|0s</DataType>
       <StateNumber>625</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="26" parent="18" name="name">
+    <column id="27" parent="18" name="name">
       <Position>1</Position>
       <DataType>varchar(50)|0s</DataType>
       <StateNumber>650</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="27" parent="18" name="description">
+    <column id="28" parent="18" name="description">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <StateNumber>650</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="28" parent="18" name="link">
+    <column id="29" parent="18" name="link">
       <Position>3</Position>
       <DataType>varchar(100)|0s</DataType>
       <StateNumber>650</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="29" parent="19" name="email">
+    <column id="30" parent="19" name="email">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <StateNumber>623</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="30" parent="19" name="password">
+    <column id="31" parent="19" name="password">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <StateNumber>623</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="31" parent="19" name="username">
+    <column id="32" parent="19" name="username">
       <Position>5</Position>
       <DataType>varchar(40)|0s</DataType>
       <StateNumber>626</StateNumber>
       <TypeId>1043</TypeId>
+    </column>
+    <column id="33" parent="20" name="username">
+      <Position>1</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <StateNumber>656</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="34" parent="20" name="title">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>656</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="35" parent="20" name="text">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>656</StateNumber>
+      <TypeId>25</TypeId>
     </column>
   </database-model>
 </dataSource>

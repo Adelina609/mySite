@@ -1,10 +1,11 @@
-$(document).ready(function() {
-    var x = get_cookie ( "emailvv" );
-    if (x === true) {
-        document.getElementById('link_Id').style.display = 'none';
+
+function pageLoad() {
+    var x = get_cookie ( "username" );
+    if (x) {
+        var y = document.getElementById("login");
+        y.style.display ="none";
     }
-    alert("WTF IS GOING");
-});
+}
 
 function get_cookie(name) {
     var matches = document.cookie.match(new RegExp(
