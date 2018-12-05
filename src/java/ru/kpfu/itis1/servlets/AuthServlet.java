@@ -18,8 +18,10 @@ public class AuthServlet extends HttpServlet {
         String email = req.getParameter("email");
         String pass1 = req.getParameter("pass");
         if (UserRepository.getUserByEmail(email) != null &&
-                UserRepository.getUserByEmail(email).getPassword().equals(pass1)) {
+                UserRepository.getUserByEmail(email).getPassword().equals(UserService.md5Apache(pass1))) {
             System.out.println("in Auth servlet");
+            HttpSession session = req.getSession();
+            session.setAttribute("email", UserService.md5Apache(email));
             Cookie userEmail = new Cookie("email", UserService.md5Apache(email));
             Cookie userName = new Cookie("username",
                     UserRepository.getUserByEmail(email).getNickname());

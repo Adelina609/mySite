@@ -16,6 +16,7 @@ public class UserRepository {
     private static final String GET_USER_BY_ID = "SELECT* FROM \"user\" WHERE \"user\".email =?";
     private static final String DELETE = "DELETE FROM \"user\" WHERE \"user\".email = ?";
     private static final String GET_USERS = "SELECT* FROM \"user\"";
+    private static final String UPDATE_USERNAME = "UPDATE \"user\" SET username = ?";
 
     private static SimpleConnectionBuilder connectionBuilder = new SimpleConnectionBuilder();
 
@@ -39,7 +40,20 @@ public class UserRepository {
         }
     }
 
-    public static UserSimple getUserByEmail(String thisemail){
+    public static void updateUsername(String username) {
+        String user = "";
+        try (Connection con = getConnection();
+             PreparedStatement pst = con.prepareStatement(UPDATE_USERNAME)) {
+            pst.setString(1, username);
+            pst.executeQuery();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+        public static UserSimple getUserByEmail(String thisemail){
         String pass = "";
         String username ="";
         try (Connection con = getConnection();

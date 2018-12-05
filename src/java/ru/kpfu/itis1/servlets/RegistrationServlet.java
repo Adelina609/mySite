@@ -31,7 +31,7 @@ public class RegistrationServlet extends HttpServlet {
             userName.setMaxAge(60);
             resp.addCookie(userName);
             resp.addCookie(userEmail);
-            UserSimple user = new UserSimple(email, pass1, username);
+            UserSimple user = new UserSimple(email, UserService.md5Apache(pass1), username);
             UserRepository.add(user);
             resp.sendRedirect(req.getContextPath() + "/home");
         }

@@ -7,41 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96aca2e8-12ea-4600-8f84-096d02e72537" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98668558-8165-47f2-98b4-f93cdb7c5e7b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98668558-8165-47f2-98b4-f93cdb7c5e7b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98668558-8165-47f2-98b4-f93cdb7c5e7b/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98668558-8165-47f2-98b4-f93cdb7c5e7b/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98668558-8165-47f2-98b4-f93cdb7c5e7b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/objects/UserSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/objects/UserSimple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/repositories/ArticlesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/repositories/ArticlesRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/repositories/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/services/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/servlets/AuthServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/servlets/AuthServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/servlets/CreateArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/servlets/CreateArticleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/servlets/MainPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/servlets/MainPageServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/servlets/RegistrationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/classes/ru/kpfu/itis1/servlets/RegistrationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/tags/layouts/main.tag" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/tags/layouts/main.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/views/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/views/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/objects/UserSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/objects/UserSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/ArticlesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/ArticlesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/SourcesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/SourcesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/views/jsp/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/views/jsp/thanks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project/WEB-INF/views/jsp/thanks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/IsAdminFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/IsAdminFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/SameFilterForArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/SameFilterForArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AuthServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AuthServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/ContactPageServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/CreateArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/CreateArticleServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/MainPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/MainPageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/PersonalAreaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/PersonalAreaServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/RegistrationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/objects/UserSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/objects/UserSimple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/repositories/ArticlesRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/repositories/ArticlesRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tESSSSSSSSSST.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/repositories/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/services/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/servlets/AuthServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/servlets/AuthServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/servlets/CreateArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/servlets/CreateArticleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/servlets/MainPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/servlets/MainPageServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/servlets/RegistrationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kpfu/itis1/servlets/RegistrationServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/layouts/jscode.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/layouts/jscode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/layouts/main.tag" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/layouts/main.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/layouts/radio.tag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/layouts/text_field.tag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/layouts/jscode.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/jsp/personal_area.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/jsp/personal_area.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/jsp/thanks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/jsp/thanks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,33 +88,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="articles: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="sources: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="user: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
     </expand>
     <select />
   </component>
@@ -127,10 +95,15 @@
     <session id="1269972450">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -138,58 +111,63 @@
           <entry key="css" value="40" />
           <entry key="dummy" value="19" />
           <entry key="html" value="324" />
-          <entry key="java" value="3875" />
-          <entry key="jsp" value="1550" />
-          <entry key="sql" value="245" />
+          <entry key="java" value="4532" />
+          <entry key="jsp" value="2439" />
+          <entry key="sql" value="549" />
           <entry key="tag" value="730" />
           <entry key="tld" value="1" />
-          <entry key="txt" value="7" />
-          <entry key="xml" value="38" />
+          <entry key="txt" value="11" />
+          <entry key="xml" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="40" />
           <entry key="HTML" value="324" />
-          <entry key="JAVA" value="3875" />
-          <entry key="JSP" value="2280" />
-          <entry key="PLAIN_TEXT" value="26" />
-          <entry key="SQL" value="92" />
-          <entry key="Scratch" value="153" />
-          <entry key="XML" value="39" />
+          <entry key="JAVA" value="4532" />
+          <entry key="JSP" value="3169" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="SQL" value="95" />
+          <entry key="Scratch" value="454" />
+          <entry key="XML" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="articles" value="7" />
+          <entry key="articles" value="10" />
           <entry key="css" value="12" />
           <entry key="html" value="4" />
-          <entry key="java" value="104" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="128" />
           <entry key="js" value="3" />
-          <entry key="jsp" value="46" />
+          <entry key="jsp" value="55" />
           <entry key="php" value="1" />
+          <entry key="postgres" value="1" />
           <entry key="servlets" value="1" />
-          <entry key="site_user" value="4" />
-          <entry key="sources" value="1" />
-          <entry key="sql" value="10" />
-          <entry key="tag" value="13" />
-          <entry key="tld" value="1" />
-          <entry key="user" value="8" />
-          <entry key="xml" value="3" />
+          <entry key="site_user" value="6" />
+          <entry key="sources" value="2" />
+          <entry key="sql" value="14" />
+          <entry key="tag" value="15" />
+          <entry key="tld" value="5" />
+          <entry key="user" value="10" />
+          <entry key="users_articles" value="3" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="12" />
-          <entry key="Database Element" value="20" />
+          <entry key="Database Element" value="31" />
           <entry key="HTML" value="4" />
-          <entry key="JAVA" value="104" />
-          <entry key="JSP" value="59" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="128" />
+          <entry key="JSP" value="70" />
           <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scratch" value="10" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="14" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="4" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -197,19 +175,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/layouts/main.tag">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/about.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="85">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
               </folding>
@@ -218,67 +187,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/personal_area.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/layouts/main.tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
-              <folding>
-                <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/post.jsp">
+        <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/CreateArticleServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="17" column="113" selection-start-line="17" selection-start-column="113" selection-end-line="17" selection-end-column="113" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AuthServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-701">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/RegistrationServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/AuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="94" selection-start-line="42" selection-start-column="94" selection-end-line="42" selection-end-column="94" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/SourcesServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/MainPageServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-157">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -286,22 +225,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/PersonalAreaServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/ThanksServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+            <state relative-caret-position="272">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="106" selection-start-line="3" selection-start-column="106" selection-end-line="3" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/source.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1543530253249" expanded="true" signature="696:785" ph="..." />
               </folding>
             </state>
           </provider>
@@ -325,21 +288,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis/servlets/MainServlet.java" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/MainServlet.java" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AboutPageServlet.java" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/contact.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/myTag.tld" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/tags/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/tags/layouts/myTag.tld" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/css/clean-blog.css" />
         <option value="$PROJECT_DIR$/web/css/clean-blog.min.css" />
         <option value="$PROJECT_DIR$/web/css/registration.css" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/SimpleConnectionBuilder.java" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/FormSimple.java" />
-        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/ContactPageServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/contact.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/contactht.html" />
@@ -353,29 +312,33 @@
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/objects/Source.java" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/SourcesServlets.java" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/SourcesServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/thanks.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/source.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/post.jsp" />
-        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/PersonalAreaServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/AuthFilter.java" />
-        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/SameFilterForArea.java" />
-        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/CreateArticleServlet.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/98668558-8165-47f2-98b4-f93cdb7c5e7b/console.sql" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/ArticlesRepository.java" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AdminServlet.java" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/objects/UserSimple.java" />
-        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/IsAdminFilter.java" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/SourcesRepository.java" />
-        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/services/UserService.java" />
-        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AuthServlet.java" />
         <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/MainPageServlet.java" />
-        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/RegistrationServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/tags/layouts/jscode.js" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/tags/layouts/main.tag" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/about.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/post.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/thanks.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/98668558-8165-47f2-98b4-f93cdb7c5e7b/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a0c16599-53bc-4013-b38c-1b2396d179db/console.sql" />
+        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/IsAdminFilter.java" />
+        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/RegistrationServlet.java" />
+        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AuthServlet.java" />
+        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/SameFilterForArea.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/services/UserService.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/CreateArticleServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/jsp/personal_area.jsp" />
+        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/PersonalAreaServlet.java" />
+        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/UserRepository.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/AuthFilter.java" />
       </list>
     </option>
   </component>
@@ -388,8 +351,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenProjectNavigator">
@@ -397,7 +360,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="tESSSSSSSSSST" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Blog On Servlets" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Blog On Servlets" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -409,10 +377,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1060" />
-    <option name="y" value="-20" />
-    <option name="width" value="597" />
-    <option name="height" value="1044" />
+    <option name="x" value="711" />
+    <option name="width" value="1218" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -423,6 +390,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -497,97 +465,6 @@
               <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
               <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="clean-blog.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="clean-blog.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="contact_me.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="jqBootstrapValidation.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.bundle.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tESSSSSSSSSST" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -629,41 +506,38 @@
             </path>
             <path>
               <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="tESSSSSSSSSST" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543552234586" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543587882794" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/postgresql-42.2.5.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="project.structure.side.proportion" value="0.3091954" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\tESSSSSSSSSST\web\img" />
       <recent name="C:\Users\user\IdeaProjects\tESSSSSSSSSST\web\WEB-INF\lib" />
-      <recent name="C:\Users\user\IdeaProjects\tESSSSSSSSSST\web\WEB-INF\views\jsp" />
       <recent name="C:\Users\user\IdeaProjects\tESSSSSSSSSST\web\WEB-INF\tags\layouts" />
+      <recent name="C:\Users\user\IdeaProjects\tESSSSSSSSSST\web\WEB-INF\views\jsp" />
+      <recent name="C:\Users\user\IdeaProjects\tESSSSSSSSSST\web\img" />
       <recent name="C:\Users\user\IdeaProjects\tESSSSSSSSSST\web\WEB-INF\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -727,6 +601,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/test" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -825,7 +700,17 @@
       <workItem from="1543265897263" duration="5658000" />
       <workItem from="1543342601561" duration="10282000" />
       <workItem from="1543397149420" duration="37840000" />
-      <workItem from="1543482484518" duration="43628000" />
+      <workItem from="1543482484518" duration="43982000" />
+      <workItem from="1543561936710" duration="262000" />
+      <workItem from="1543562228266" duration="1294000" />
+      <workItem from="1543563614233" duration="2560000" />
+      <workItem from="1543566444341" duration="58000" />
+      <workItem from="1543568385563" duration="3102000" />
+      <workItem from="1543571536343" duration="4547000" />
+      <workItem from="1543577080343" duration="9472000" />
+      <workItem from="1543683063261" duration="673000" />
+      <workItem from="1543859739598" duration="395000" />
+      <workItem from="1543950456189" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1543529216870</created>
@@ -841,17 +726,33 @@
       <option name="project" value="LOCAL" />
       <updated>1543547328217</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="comm">
+      <created>1543552261803</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543552261803</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97408000" />
+    <option name="totallyTimeSpent" value="120790000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="55" y="-7" width="1233" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19676113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23273657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -859,31 +760,71 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32924694" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32890365" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32924694" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.43432575" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5415282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.48161122" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.48006645" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32924694" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32924694" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32924694" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32924694" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32924694" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.48161122" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32890365" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32924694" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32924694" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32955465" />
-      <window_info anchor="right" id="Database" order="6" weight="0.2534413" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="CDI" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="1" weight="0.32992327" />
+      <window_info anchor="right" id="JSF" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.24978687" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32907075" />
+      <window_info anchor="right" id="Database" order="9" weight="0.25319692" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22847399" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32890365" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32924694" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5415282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.48006645" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32924694" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32924694" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32924694" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.48161122" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32890365" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32924694" />
+      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32924694" />
+      <window_info anchor="right" id="CDI" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="1" weight="0.32992327" />
+      <window_info anchor="right" id="JSF" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32907075" />
+      <window_info anchor="right" id="Database" order="9" weight="0.25319692" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -893,154 +834,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="comm" />
+    <option name="LAST_COMMIT_MESSAGE" value="comm" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/layouts/myTag.tld" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/layouts/text_field.tag">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/mail/contact_me.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/smthngg (1).jsp" />
-    <entry file="das://98668558-8165-47f2-98b4-f93cdb7c5e7b/database/postgres/schema/public/table/site_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/registration.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/contactht.html" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/sql/PreparedStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AboutPageServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/PostPageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/clean-blog.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6537" selection-start-line="4" selection-start-column="6537" selection-end-line="4" selection-end-column="6537" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/clean-blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="420" selection-start-line="420" selection-end-line="420" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/modal_window.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="156" column="3" lean-forward="true" selection-start-line="156" selection-start-column="3" selection-end-line="156" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://98668558-8165-47f2-98b4-f93cdb7c5e7b/database/postgres/schema/public/table/sources">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/thanks.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/source.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1543530253249" expanded="true" signature="696:785" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://98668558-8165-47f2-98b4-f93cdb7c5e7b/database/postgres/schema/public/table/articles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://98668558-8165-47f2-98b4-f93cdb7c5e7b/database/postgres/schema/public/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://98668558-8165-47f2-98b4-f93cdb7c5e7b/database/postgres/schema/public/table/user" />
     <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/objects/Article.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1052,9 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#358#359#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,151 +861,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/ArticlesRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/SimpleConnectionBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/SourcesRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2312#2363#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/98668558-8165-47f2-98b4-f93cdb7c5e7b/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/IsAdminFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/SameFilterForArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AdminServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/ContactPageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AuthServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/CreateArticleServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="33" column="67" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/ContactPageServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,100 +876,243 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/PersonalAreaServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/RegistrationServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="94" selection-start-line="42" selection-start-column="94" selection-end-line="42" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/layouts/jscode.js" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/layouts/radio.tag" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/post.jsp" />
+    <entry file="file://$PROJECT_DIR$/tESSSSSSSSSST.iml" />
     <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/SourcesServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="170">
           <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/thanks.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://98668558-8165-47f2-98b4-f93cdb7c5e7b/database/postgres/schema/public/table/sources" />
+    <entry file="das://98668558-8165-47f2-98b4-f93cdb7c5e7b/database/postgres/schema/public/table/articles" />
+    <entry file="das://98668558-8165-47f2-98b4-f93cdb7c5e7b/database/postgres/schema/public/table/site_user" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/98668558-8165-47f2-98b4-f93cdb7c5e7b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/40efc7e7-8cfc-47de-a635-5fc350c150a8/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/18f70c45-cd72-44ed-ab22-435ef2dff177/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://18f70c45-cd72-44ed-ab22-435ef2dff177/role/postgres" />
+    <entry file="das://a0c16599-53bc-4013-b38c-1b2396d179db/database/postgres/schema/public/table/site_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a0c16599-53bc-4013-b38c-1b2396d179db/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="133" column="2" lean-forward="true" selection-start-line="133" selection-start-column="2" selection-end-line="133" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a0c16599-53bc-4013-b38c-1b2396d179db/database/postgres/schema/public/table/articles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a0c16599-53bc-4013-b38c-1b2396d179db/database/postgres/schema/public/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/lib/tld.tld" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/layouts/tld.tld" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/tld.tld" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld.tld" />
+    <entry file="das://a0c16599-53bc-4013-b38c-1b2396d179db/database/postgres/schema/public/table/users_articles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/ThanksServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="153">
           <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/layouts/jscode.js">
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/SimpleConnectionBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="221">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/layouts/radio.tag">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AdminServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/IsAdminFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/SameFilterForArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-701">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="765">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/layouts/main.tag">
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/ArticlesRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="536">
+          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/about.jsp">
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/SourcesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/RegistrationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="33" column="80" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/registration.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/post.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+          <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/personal_area.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+        <state relative-caret-position="180">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/CreateArticleServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="113" selection-start-line="17" selection-start-column="113" selection-end-line="17" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/AuthServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servlets/PersonalAreaServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/repositories/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="106" selection-start-line="3" selection-start-column="106" selection-end-line="3" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/source.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+          <folding>
+            <marker date="1543530253249" expanded="true" signature="696:785" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ru/kpfu/itis1/servl_filters/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/jsp/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/layouts/main.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -1317,7 +1122,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>tESSSSSSSSSST:Web exploded</last-edited>
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1330,7 +1135,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1365,11 +1170,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web2|tESSSSSSSSSST</last-edited>
+          <last-edited>tESSSSSSSSSST</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3091954" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1377,11 +1183,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.postgresql:postgresql:42.2.5</last-edited>
+          <last-edited>Maven: jstl:jstl:1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3091954" />
               </list>
             </option>
           </splitter-proportions>

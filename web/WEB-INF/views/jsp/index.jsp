@@ -12,38 +12,6 @@
 <main:main>
 <head>
     <link rel="stylesheet" href="<c:url value="/css/modal_window.css"/>">
-    <script>
-        $(".open-all").click(
-            function () {
-                alert("func")
-                $(this).next(".more").slideToggle("fast");
-                //$(this).slideToggle("fast");
-                $(this).style.display = "none"
-            });
-
-        $(".close").click(
-            function () {
-                $(this).parent().slideToggle("fast");
-                //$(".open-all-block").slideToggle("fast");
-                $(this).parent().prev(".open-all").style.display = "inline-block"
-                //$(".open-all").css("display", "block");
-            });
-    </script>
-    <style>
-        .opisanie {
-            width: 400px;
-            margin: auto;
-        }
-        .more {
-            display:none
-        }
-        .open-all, .cllose {
-            display: inline-block;
-            border: 1px grey solid;
-            border-radius: 20px;
-            padding: 0.5em 1em;
-        }
-    </style>
 </head>
 <!-- Page Header -->
 <header class="masthead" style="background-image: url('img/img_brain.jpg')">
@@ -52,8 +20,8 @@
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <div class="site-heading">
-                    <h1>Clean Blog</h1>
-                    <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                    <h1>Scitopus</h1>
+                    <span class="subheading">Блог о популярной науке</span>
                 </div>
             </div>
         </div>
@@ -72,28 +40,10 @@
                 <p class="post-subtitle">
                     ${article.getText()}
                 </p>
-                <span class="open-all">показать полностью</span>
-                <div class="more" style="display: none">дополнительный текст<br>
-                    <span class="close">скрыть</span>
-                </div>
                 <p class="post-meta">Posted by
                     ${article.getUsername()}</p>
             </div>
             </c:forEach>
-
-                <div class="opisanie">
-                    <h2>Краткое описание</h2>
-                    <p>При установке ксенонового оборудования на современные автомобили, оснащенные бортовым компьютером, часто можно столкнуться с тем, что компьютер выдает ошибку в работе системы освещения (загорается соответствующая лампочка на панели приборов). На целом ряде автомобилей это приводит к автоматическому отключению подачи питания на фары. </p>
-                    <button class="open-all" id="open-all" style="display: block">показать полностью</button>
-                    <div class="more" id="more">дополнительный текст<br>
-                        <button class="close" id="close">скрыть</button>
-                    </div>
-                </div>
-
-            <!-- Pager -->
-            <%--<div class="clearfix">--%>
-                <%--<a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>--%>
-            <%--</div>--%>
             </div>
         </div>
     </div>

@@ -21,8 +21,7 @@
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="site-heading">
-                        <h1>Clean Blog</h1>
-                        <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                        <h1>Мои статьи</h1>
                     </div>
                 </div>
             </div>
@@ -33,8 +32,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
+                <p id="name">username: ${user}</p>
+                <button id="editBtn" onclick="editUsername()">Редактировать имя пользователя</button>
+                <form id="formForUsername" style="display: none;">
+                    <input type="text" name="editText" id="editText">
+                    <input type="submit">
+                </form>
                 <c:forEach items="${articles}" var="article">
-                    <div class="post-preview">
+                    <div class="post-preview" id="post">
                         <h2 class="post-title">
                                 ${article.getTitle()}
                         </h2>
@@ -53,7 +58,24 @@
         </div>
     </div>
     </div>
+    <button id="deleteUser">Удалить аккаунт</button>
+    <form>
+        <p>Удалить акаунт?</p>
+        <input type="submit" onclick="deleteUser()">
+    </form>
+
+
 </main:main>
+<script>
+    function editUsername() {
+        document.getElementById("name").style.display = 'none';
+        document.getElementById("formForUser").style.display = 'inline-block';
+    }
+    function deleteUser() {
+        document.getElementById("deleteUser").style.display = 'none';
+        document.getElementById("forDelete").style.display = 'inline-block';
+    }
+</script>
 
 </html>
 

@@ -30,7 +30,7 @@ public class IsAdminFilter implements Filter {
         if(isAdmin){
             filterChain.doFilter(request, response);
         } else {
-            response.sendRedirect("/home");
+            response.sendRedirect(request.getContextPath()+"/home");
         }
     }
     @Override

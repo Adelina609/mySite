@@ -1,6 +1,6 @@
 package ru.kpfu.itis1.services;
 
-import org.apache.commons.codec.digest.DigestUtils;
+//import org.apache.commons.codec.digest.DigestUtils;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;
@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 public class UserService {
 
     public static String md5Apache(String st) {
-        return DigestUtils.md5Hex(st);
+        return "hhhh";
     }
 
     public static boolean checkEmail(String email) {

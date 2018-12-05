@@ -5,6 +5,7 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 @WebFilter("/createarticle")
@@ -14,18 +15,22 @@ public class AuthFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
-        Cookie[] cookies = request.getCookies();
-        String loginURI = request.getContextPath() + "#openModal";
-        boolean isLogged = false;
-        for(Cookie cookie :  cookies){
-            if(cookie.getName().equals("username")){
-                isLogged = true;
+        HttpSession session = request.getSession();
+        String EMAIL = "email";
+        if(session.getAttribute(EMAIL) == null) {
+            Cookie[] cookies = request.getCookies();
+            boolean isLogged = false;
+            for (Cookie cookie : cookies) {
+                if (cookie.getName().equals("username")) {
+                    isLogged = true;
+                }
+            }
+            if (isLogged) {
+                filterChain.doFilter(request, response);
             }
         }
-        if(isLogged){
-            filterChain.doFilter(request, response);
-        } else {
-            response.sendRedirect("/login");
+        else {
+                response.sendRedirect(request.getContextPath()+"/login");
         }
     }
     @Override
